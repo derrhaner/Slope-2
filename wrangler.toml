@@ -1,6 +1,6 @@
-name = "slope-2"
-compatibility_date = "2025-12-28"
+name = "slope-2"                  # اسم صغير كما غيرته سابقاً
+compatibility_date = "2026-01-07"
 
 [assets]
-directory = "dist"
-not_found_handling = "single-page-application"   # هذه القيمة النصية الصحيحة
+directory = "."                   # غيّر "dist" إلى "." (نقطة معناها الجذر الرئيسي)
+# أو bucket = "." إذا كنت تستخدم الإعداد القديم [site]هذه القيمة النصية الصحيحة
